@@ -1,4 +1,11 @@
-console.log("All around the worls".charAt(8));
+console.log("All around the worls".charAt(8)); // This will display the 8th character of this sentence in upper case on the console.
+
+console.log("All around the worls".charAt(8).toLocaleUpperCase()); // using 2 methods in one.
+
+// Variables are like boxes. We store in boxes to retrieve later. Different items can be stored in the box at different times. In code we give variables names se we can access things inside them
+// This is hard coded. withdraw 10_pounds from 7683518 - This is dynamic withdraw amount from accountnumber
+// Allow us to store data inside them. Access them via a name. Place new data in them whenever we want
+// let varName = "This name" you can change the later by varName = "Another name" or update it if it's a number like with a counter
 
 let i = 10;
 console.log(i)
@@ -6,22 +13,22 @@ i += 2;
 console.log(i)
 
 
-let userName1 = 'phillip'
-let age1 = '26'
-let favColour1 = 'Blue'
+let userName = 'phillip'
+let age = '26'
+let favColour = 'Blue'
 
-console.log(`${userName1} is ${age1} years old, his favourite colour is ${favColour1}`)
+console.log(`${userName} is ${age} years old, his favourite colour is ${favColour}`)
 
 favColour = 'Green' 
 age = 27
 
 console.log(`${userName} is ${age} years old, his favourite colour is ${favColour}`)
 
-let userName = prompt("What's your name?");
-let age = prompt("What's your age?");
-let favColour = prompt("What's your favColour?");
+let userName1 = prompt("What's your name?");
+let age1 = prompt("What's your age?");
+let favColour1 = prompt("What's your favColour?");
 
-console.log(`${userName} is ${age} years old, his favourite colour is ${favColour}`)
+console.log(`${userName1} is ${age1} years old, his favourite colour is ${favColour1}`)
 
 let breakfast = 'Toast and a brew'
 let lunch = 'Noodles'
