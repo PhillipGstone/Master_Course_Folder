@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" type="text/css" rel="stylesheet">
+    <title>JS Dom Activity</title>
+</head>
+<body>
+    <h1 id="mainHeading">My Heading</h1>
+
+    <h2 id="headingD">JS DOM</h2>
+    <p>Using .style gives you access to all CSS properties. properties must be typed using camelCase in JS</p>
+    <ul id="listWrapperD">
+        <li class="listItemD">List Item 1</li>
+        <li class="listItemD">List Item 2</li>
+        <li class="listItemD">List Item 3</li>
+        <li class="listItemD">List Item 4</li>
+    </ul>
+<br>
+    <h2 id="heading">JS DOM</h2>
+    <p>Looping though element. Select multiple Items and change the colour of them in JS though a for loop</p>
+    <ul id="listWrapper">
+        <li class="listItem">List Item 1</li>
+        <li class="listItem">List Item 2</li>
+        <li class="listItem">List Item 3</li>
+        <li class="listItem">List Item 4</li>
+    </ul>
+<br>
+    <h2 id="headingB">JS DOM</h2>
+    <p>Click event Example. Click anywhere to change the header</p>
+    <ul id="listWrapperB">
+        <li class="listItemB">List Item 1</li>
+        <li class="listItemB">List Item 2</li>
+        <li class="listItemB">List Item 3</li>
+        <li class="listItemB">List Item 4</li>
+    </ul>
+<br>
+    <h2 id="headingC">JS DOM</h2>
+    <p>Sets or returns the HTML content of the specified element</p>
+    <ul id="listWrapperC">
+        <li class="listItemC">List Item 1</li>
+        <li class="listItemC">List Item 2</li>
+        <li class="listItemC">List Item 3</li>
+        <li class="listItemC">List Item 4</li>
+    </ul>
+<br>
+    <h2 id="boxHeading">JS Dom</h2>
+    <p>You can get the text typed in an input box by using the value property</p>
+    <input type="text" id="inputBox">
+    <button id="submit">Submit</button>
+<br><br>
+    <h2>My Picture</h2>
+    <div class="onClickPicture">
+        <div>
+        <button id="pictureButton" onclick="diffPic()">Click me!</button>
+        </div>
+    <img id="myImage" src="images/image1.png">
+    </div>
+<br>
+<h2>Box to change picture</h2>
+<p>Put an image link in the box below</p>
+<input type="text" id="inputBoxB">
+<button id="submitButton">Submit</button>
+<img id="thePicture" src="">
+
+<h3 id="colourChange">Colour Change Heading</h3>
+<input type="text" id="inputBoxC">
+<button id="theSubmitButton">Submit</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
