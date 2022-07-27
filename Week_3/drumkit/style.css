@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.keys {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1%;
+    margin: 7% 0%;
+    flex-wrap: wrap;
+}
+.key, button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+    margin: 1%;
+    transition:all 0.05s;
+    background-color: rgb(210, 105, 30);
+    font-size: 25px;
+    text-shadow: 2px 2px #d3d0d0de;
+    border-style: solid;
+    border-color: rgb(0, 128, 0);
+}
+.key:hover {
+    background-color: rgb(180, 88, 24);
+    color: white;
+    text-shadow: 2px 2px black;
+    cursor: pointer;
+}
+.playing {
+    transform:scale(1.1);
+    background-color: rgb(78, 37, 8) !important;
+    border-style: solid;
+    border-color: rgb(4, 80, 4);
+}
+
