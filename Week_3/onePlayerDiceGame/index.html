@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" type="text/css" rel="stylesheet">
+    <title>Dice Game</title>
+</head>
+<body>
+    <div class="diceContainer">
+        <h1 id="update">Dice Game</h1> <!-- This is the You Lose You Win. -->
+        <p id="score">0</p>  <!-- This is  -->
+        <p id="condition">Click the Roll Dice button to Begin</p>  <!-- This is the random number you just rolled. -->
+    </div>
+    <div class="buttons">
+        <button class="button" id="roll">Roll Dice</button>
+        <button class="button" id="restart">restart</button>
+    </div>
+    <br>
+    <div class="rules">
+        <h2>The Rules</h2>
+        <p class="rulesText">Roll the dice to get a number and you can add that to you're total score. Get 20 to win but if you get a 1 you lose and have to start over.</p>
+    </div>
+    <audio id="diceSound" src="sounds/diceSound.wav"></audio>
+    <audio id="loseSound" src="sounds/loseSound.mp3"></audio>
+    <audio id="winSound" src="sounds/winSound.mp3"></audio>
+    <script src="diceGame.js"></script>
+</body>
+</html>
