@@ -1,0 +1,28 @@
+{
+	"folders": [
+		{
+			"name": "master_course",
+			"path": "..\\.."
+		},
+		{
+			"name": "code_nation",
+			"path": "..\\..\\..\\code_nation"
+		},
+		{
+			"name": "innovate_folder",
+			"path": "..\\..\\..\\innovate_folder"
+		},
+		{
+			"path": "..\\..\\..\\FullStack_PhillipG_Project"
+		},
+		{
+			"path": "..\\..\\..\\website_clone"
+		},
+		{
+			"path": "..\\..\\..\\random_stuff"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "random_stuff"
+	}
+}
