@@ -174,13 +174,3 @@ h1, h2, h3 {
     padding: 1%;
 }
 
-/* p {
-    background-color: red;
-    padding: 20px;
-    padding: 25px 50px 75px 100px;  top right bottom left 
-    padding: 40vw;
-    padding: 40vh;
-    margin: 50px;
-    width: 200;
-    box-sizing: border-box; this makes it 200px not 200px plus the 20px padding so would be 240px 
-} */
