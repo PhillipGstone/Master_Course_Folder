@@ -106,5 +106,3 @@ const subbtn = document.getElementById("theSubmitButton")
 subbtn.addEventListener("click", () => {
     colourChange.style.color = inputBoxC.value
 }) 
-
-
