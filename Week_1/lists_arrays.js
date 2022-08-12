@@ -150,4 +150,3 @@ do {
     console.log(count)
 }
 while(count != 20);
-

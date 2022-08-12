@@ -1,0 +1,40 @@
+cd "file name" to path into somewhere. ls list items in current path. cd .. go back one in path. mkdir "folder name" create new folder. touch "file name" create new file.
+
+node then file name to run it
+
+let variable that can be changed Also var is the same as let just older
+
+const variable that can't be changed or at least the type can't be changed
+
+== Equal. === Strict equal
+
+5 as a string and 5 as int == would be true. === would be false because not the same data types
+
+&& -> and. || -> or. for if statments
+
+lists are also called arrays
+
+oop 
+
+const protects the data type not the stuff inside. can change a string but can't change it from string to interger
+
+functions are good so if u have a problem in one it won't mess up the rest of the code just what's in the function
+
+use console.log on on things to know where the code failed of where it got up to?
+
+git add . then git commit -m "commit message here" then git push
+
+Strings for representing text. "This is a string!"
+Numbers for representing numbers (decimals & integers) 
+Boolean for True or False
+Symbol this data type is used as the key for an object property when the property is needed to be private
+Undefined for when a data type isn't determined
+Null for nothing
+
+Arithmetic Operators for calculations. 
++ Addition,  - Subtraction,  *	Multiplication,  ** Exponentiation,  / Division,  % Modulus (Remainder),  ++ Increment,  -- Decrement
+
+Assignment Operators for storing values.
+=,  *=,  +=,  /=,  -=, ++,  --
+
+All data has properties and methods. String - Data Type. toLowerCase(), toUpperCase() - Methods. Length - Property.
