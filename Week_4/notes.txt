@@ -10,3 +10,4 @@ The new keywork is how we take a class and turn it into a Object jusing the cons
 Make a class name it whatever and in () put what you want to change in the this.something = something, make a const name it whatever the use the new keywork before the class name it's gonna call the constructer with everything we put in the () like ('red') and if wanted a func in the class put it in the class then inside put what u want with return this; or return 'string' and this func is going to be shared between all the diffrent instances or all the diffrent objects of our class. the call by (variblename.whatyoucalling) or (variblename.func)
 Make the class name with a Capital letter. this.name = name; allows you to change the name so it not the same for all.
 
+[...this.]; Spred operator. Spreds out the list
