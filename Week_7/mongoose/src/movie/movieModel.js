@@ -1,4 +1,5 @@
-const mongoose = require("mongoose")
+const mongoose = require("mongoose");
+const { number } = require("yargs");
 
 const movieSchema = new mongoose.Schema({ // new for every time you make a new movie
     title: {
@@ -9,6 +10,10 @@ const movieSchema = new mongoose.Schema({ // new for every time you make a new m
     actor: {
         type: String,
         defalt: "Not Specified", // this for if not entered anything
+    },
+    rating: {
+        type: Number,
+        defalt: "Not Specified",
     }
 });
 // need ; at the end of func and need , for object syntax

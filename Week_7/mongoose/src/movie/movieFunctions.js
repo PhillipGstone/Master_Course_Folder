@@ -15,3 +15,11 @@ exports.listMovies = async () => {
         console.log(error)
     }
 }
+
+// exports.updateMovie = async (movieObject) => {
+//     try {
+//         await Movie.findByIdAndUpdate(movieObject)
+//     } catch (error) {
+//         console.log(error)
+//     }
+// }
