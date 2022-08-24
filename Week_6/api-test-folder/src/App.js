@@ -30,6 +30,7 @@ const App = () => {
 
 export default App;
 
+// use styled components here at bottom of page insted of in a css file
 // // how to style the link component using styled components
 // const NavLink = styled(Link)`
 //     background-color: green;
