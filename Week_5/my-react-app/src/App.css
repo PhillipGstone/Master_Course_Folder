@@ -40,3 +40,23 @@
 .image {
   padding: 1em;
 }
+.button {
+  background-color: antiquewhite;
+  padding: 15px;
+  border: 2px solid  rgb(194, 121, 26);
+  cursor: pointer;
+}
+.button:hover {
+  background-color: rgb(68, 67, 67);
+  color: white;
+  cursor: pointer;
+}
+.button:active {
+  transform: translateY(2px);
+  background-color: rgb(20, 20, 20);
+}
+.wordChange {
+  color: purple;
+  text-decoration: underline;
+  font-size: 60px;
+}

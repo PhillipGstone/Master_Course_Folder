@@ -1,0 +1,35 @@
+npm innit -y
+
+npm i yargs  npm i mongodb  npm i dotenv  npm i mongoose    i is install just less words
+
+crud mongodb install yargs and mongodb and dotenv. Make src folder put utils folder db folder in there and in db folder make connection.js in utils folder index.js in src folder app.js 
+
+Need to import mongo client in connection.js helps make connection to our mongoDB cluster.
+
+On our cluster on the broser. click connect then take the link then change the username and password to the one you make for the cluster.
+
+Call our DB something ("Movies") Make sure you export it at bottom
+
+in app.js import yargs and the client connection ("./db/connection")
+
+make a app arrow function, make it async. call it at bottom of page. app()  Need to run app.js in src folder. cd src
+
+try catch to catch errors if it works do the thing we want if not it will catch it and display an error.
+
+in index.js make the class the thing we want to accese on the db class Movie constructer title, name. then instad of making an array we use a db use async and await
+
+connect to the MongoClient with the await Client.connect() make sure you export at bottom of page. module.exports = { client, connection }
+
+app.js import Movie class. then in if creating a new element .title, .actor then the crud opperasion call that await.add(collection) then console.log it.
+
+Need to close connection. at end of if put await client.close() and in catch.
+
+at bottom app(yargs.argv) the in cmd. node app.js --create --title spiderman --actor "Dave Smith" 
+
+Movie is the collection and the doc is each item that you make is there _id title actor. 
+
+use the emv to hide the sensitive info in a emv file. Then remove the password and put it in .emv MONGO_URI = password here wrap in "". Don't need the < > in the password. then from where we removed it put process.emv only you will be able to see the emv file when we finised with a .gitignore the .emv file. The .emv needs to be outside the src folder. Import .emv file. request("dotenv").config;
+
+add   list   update   delete  look to see what crud oprasions needed to make them work.
+
+Username: PhillipDBMaster  Password: N8bluUNS0zf0cCCd  Cluster: PhillipDBMaster40

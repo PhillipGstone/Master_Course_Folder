@@ -1,0 +1,61 @@
+body {
+  position: relative;
+  background-image: url("https://t4.ftcdn.net/jpg/02/97/79/83/360_F_297798377_VB9egqGnRKcZxU53wybEHLRnnTrcvlAH.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  animation: change 20s infinite ease-in-out 5s;
+}
+h1, p {
+  text-align: center;
+}
+h1 {
+  text-shadow: 2px 2px red;
+}
+p {
+  padding: 4% 0 0 0;
+  font-size: 110%;
+  text-decoration: underline;
+}
+img {
+  margin-left: 7%;
+  width: 80%;
+  padding: 1em;
+}
+.diffFilms {
+  background-color: rgb(211, 211, 211, 0.7);
+  margin: 0% 37%;
+}
+.NavButton {
+  padding: 1em;
+  margin: 1%;
+  background-color: lightgray;
+  border-radius: 5px;
+  border: 2px solid Red;
+}
+.aboutMeText {
+  background-color: rgb(211, 211, 211, 0.7);
+  padding: 1%;
+  margin: 2% 15%;
+}
+@keyframes change {
+  0% {
+    background-image: url(https://wallpaperaccess.com/full/4326438.jpg);
+  }
+  20% {
+    background-image: url(https://t4.ftcdn.net/jpg/02/97/79/83/360_F_297798377_VB9egqGnRKcZxU53wybEHLRnnTrcvlAH.jpg);
+  }
+  40% {
+    background-image: url(https://images.unsplash.com/photo-1519638399535-1b036603ac77?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80);
+  }
+  60% {
+    background-image: url(https://www.pixelstalk.net/wp-content/uploads/images6/Aesthetic-Anime-Wallpaper-HD.jpg);
+  }
+  80% {
+    background-image: url(https://wallpaperaccess.com/full/1579893.jpg);
+  }
+  100% {
+    background-image: url(https://wallup.net/wp-content/uploads/2016/05/14/39601-anime.jpg);
+  }
+}

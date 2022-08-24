@@ -1,0 +1,17 @@
+$headfont:  Arial, Helvetica, sans-serif;
+$maincolour: rgb(66, 224, 18);
+$secondarycolour: crimson;
+$light: white;
+$dark: black;
+
+@mixin heading {
+  font-family: $headfont;
+  color: rgb(14, 35, 230);
+  text-align: center;
+  margin-top: 0px;
+}
+@mixin flex-centre {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

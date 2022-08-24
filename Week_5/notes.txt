@@ -1,0 +1,5 @@
+npx create-react-app projectName   to make/setup a react folder
+
+npm start   to open it up in a webbrowser like livesurver. Make sure you cd into your react folder!!!
+
+[...this.]; Spred operator. Spreds out the list
