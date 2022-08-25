@@ -1,5 +1,4 @@
 const mongoose = require("mongoose");
-const { number } = require("yargs");
 
 const movieSchema = new mongoose.Schema({ // new for every time you make a new movie
     title: {
