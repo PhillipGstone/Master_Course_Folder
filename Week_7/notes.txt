@@ -1,6 +1,6 @@
 npm innit -y
 
-npm i yargs  npm i mongodb  npm i dotenv  npm i mongoose    i is install just less words
+npm i yargs   npm i mongodb   npm i dotenv   npm i mongoose      i is install just in less words
 
 crud mongodb install yargs and mongodb and dotenv. Make src folder put utils folder db folder in there and in db folder make connection.js in utils folder index.js in src folder app.js 
 
@@ -22,14 +22,16 @@ connect to the MongoClient with the await Client.connect() make sure you export 
 
 app.js import Movie class. then in if creating a new element .title, .actor then the crud opperasion call that await.add(collection) then console.log it.
 
-Need to close connection. at end of if put await client.close() and in catch.
+Need to close connection. at end of if put await client.close() and in catch.  await mongoose.disconnect();
 
-at bottom app(yargs.argv) the in cmd. node app.js --create --title spiderman --actor "Dave Smith" 
+at bottom app(yargs.argv);  node app.js --create --title spiderman --actor "Dave Smith" 
 
 Movie is the collection and the doc is each item that you make is there _id title actor. 
 
-use the emv to hide the sensitive info in a emv file. Then remove the password and put it in .emv MONGO_URI = password here wrap in "". Don't need the < > in the password. then from where we removed it put process.emv only you will be able to see the emv file when we finised with a .gitignore the .emv file. The .emv needs to be outside the src folder. Import .emv file. request("dotenv").config;
+use the env to hide the sensitive info in a env file. Then remove the password and put it in .env MONGO_URI = password here wrap in "" Only need to wrap in Mongo. Don't need the < > in the password. Then from where we removed it in connection put process.env only you will be able to see the env file when we finised with a .gitignore. The .env file needs to be outside the src folder. Import .env file. request("dotenv").config;
 
 add   list   update   delete  look to see what crud oprasions needed to make them work.
 
-Username: PhillipDBMaster  Password: N8bluUNS0zf0cCCd  Cluster: PhillipDBMaster40
+C  R  U  d   create  Read  Update  Delete 
+
+Don't forget your imports and requires at top of page and your exports and calling the app func at botton of page!!!!
