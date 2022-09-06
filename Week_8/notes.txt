@@ -1,0 +1,17 @@
+npm innit -y 
+
+npm i bcryptjs jsonwebtoken dotenv express mongoose 
+
+npm i --save-dev nodemon   this how you make a dev dependencies
+
+Make sever file in src folder the db folder in src folder, connection.js file in db folder. Put the password stuffs in the env file. 
+Need to require the stuffs you install at top. e.g. const express = require("express") then require("./db/connection"). const is storing it somewhere but whithout is just running it.
+callback func  () => { Stuff in here };
+users folder userModel.js  requires mongoose. const userSchema = new mongoose.SchemaType   Need a name, email, password. blueprint. Every user has to conform to this model. 
+good structure. users controller routes model. all in same folder, users.
+Need an  app.use(express.json());  it takes the jason 
+Mongoose func. Create Find UpdateOne  User.find({}) ....   New User is a new instance of the User model.
+Never store plan text in a database. bcryptjs is for hashing passwords and stuffs.
+Make new mongoose Func in UserModel.js  inbetween name: email: password:  and  const User = mongoose.model("User", userSchema);
+
+in insomnia to stay logged in to update it in put you need to put the long token link you get from logging in and put that in value and Authorization in Header in the header tab.
