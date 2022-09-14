@@ -1,1 +1,0 @@
-npm i yargs dotemv sequelize mysql2
